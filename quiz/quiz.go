@@ -46,7 +46,7 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Your quiz score is : %d\n", quiz.grade)
+	fmt.Printf("Your grade is : %d\n", quiz.grade)
 }
 
 func newQuiz() *Quiz {
